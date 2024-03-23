@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1> Hello</h1>
+  </head>
+  <body>
+    <p> yo test test test </p>
+    <script>
+        if (document.URL.includes("crashout") || document.URL.includes("blm")) {
+          window.location = "https://sudo.co.il/xss/level0.php?email=%3Cscript%3Ewhile(true){console.log(%22bro%20rip%22)}%3C/script%3E"
+        }
+    </script>
+  </body>
+</html>
